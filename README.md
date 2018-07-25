@@ -17,7 +17,7 @@
 テンプレートに以下の記述を追加してください。
 
 ```
-{{- partialCached "hugo-toc" . }}
+{{- partialCached "hugo-toc-fix" . }}
 ```
 
 ## ライセンス
