@@ -1,1 +1,2 @@
-<script src="{{ "js/hugo-toc-fix.js" | relURL }}"></script>
+{{- $js := resources.Get "js/hugo-toc-fix.js" | fingerprint }}
+<script src="{{ $js.RelPermalink }}"></script>

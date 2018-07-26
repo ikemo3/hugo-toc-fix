@@ -8,7 +8,8 @@
 
 ## 前提条件
 
-[Theme Components][]を使用するため、[Hugo][] 0.42以上が必要です。
+[Theme Components][]および[Hugo Pipes][]を使用するため、
+[Hugo][] 0.43以上が必要です。
 
 ## テンプレートへの組み込み方法
 
@@ -23,5 +24,6 @@
 MITライセンスです。
 
 [Hugo]: https://gohugo.io/
+[Hugo Pipes]: https://gohugo.io/hugo-pipes/
 [Theme Components]: https://gohugo.io/themes/theme-components/
 [Issue #1778]: https://github.com/gohugoio/hugo/issues/1778
