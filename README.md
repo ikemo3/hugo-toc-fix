@@ -19,6 +19,9 @@
 {{- partialCached "hugo-toc-fix" . }}
 ```
 
+また、無視したい見出しは`<h2 data-toc-ignore="true">目次</h2>`のように
+data-toc-ignore="true"を指定してください。
+
 ## ライセンス
 
 MITライセンスです。

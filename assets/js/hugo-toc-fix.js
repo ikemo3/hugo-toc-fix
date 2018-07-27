@@ -15,6 +15,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const headings = document.querySelectorAll("h2, h3, h4, h5, h6");
     headings.forEach(function (heading) {
+        if (heading.getAttribute("data-toc-ignore") === "true") {
+            return;
+        }
+
         switch (heading.tagName.toLowerCase()) {
             case "h2":
                 h2 = {id: heading.getAttribute("id"), title: heading.textContent, children: []};
